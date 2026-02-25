@@ -1,0 +1,444 @@
+/*css geral*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", san-serif;
+}
+
+body{
+
+    background-color: #000080;
+    height: 100vh;
+}
+
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+}
+
+/*css da logo*/
+.img-logo{
+    width: 100px;
+}
+
+.btn-contato button{
+    padding: 10px 30px;
+    font-size: 15px;
+    font-weight: 700;
+    background-color: #ff9929;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.btn-contato button:hover{
+    box-shadow: 0px 0px 8px rgb(255, 106, 0);
+    transform: scale(1.20);
+    transition: .3s;
+}
+
+h2.titulo{
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+}
+
+/*css do cabeçalho*/
+header{
+    padding: 20px 4%;
+    background-color: #DCDCDC;
+    box-shadow: 1px 1px 4px #1c1c1c;
+}
+
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a{
+    color: rgb(110, 110, 110);
+    text-decoration: none;
+}
+
+header a:hover{
+    color: #fff;
+    transform: scale(1.30);
+    display: inline-block;
+    transition: .3s;
+}
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0 40px;
+}
+
+header nav ul li:hover{
+    background-color: #ff9929;
+    border: 7px solid #ff9929;
+    border-radius: 20px;
+    color: #fff;
+    transform: scale(1.07);
+    display: inline-block;
+    transition: .3s;
+}
+
+footer p {
+    background: #DCDCDC;
+    color: #1c1c1c;
+    padding: 20px 4%;
+    margin-top: 45px;
+    text-align: center;
+    padding: 10px;
+    font-size: 1em;
+}
+
+/*css do topo do site*/
+
+
+section.topo-do-site{
+    margin: 20px;
+    padding: 40px 4%;
+}
+
+section.topo-do-site .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+}
+
+.topo-do-site .txt-topo-site h1{
+    color: #fff;
+    font-size: 45px;
+    line-height: 40px;
+}
+
+.topo-do-site .txt-topo-site p{
+    color: #fff;
+    margin: 50px 0;
+}
+
+.img-mulher{
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 25px #ffffff65;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    margin-top: 45px;
+    transition: .3s;
+}
+
+/*css das caixas de trabalho*/
+
+section.trabalhos{
+    padding: 200px 4%;
+}
+
+section.trabalhos .flex{
+    gap: 60px;
+}
+
+.trabalhos .caixas-de-trabalhos{
+    color: #fff;
+    padding: 40px;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    margin-top: 45px;
+    transition: .3s;
+}
+
+.trabalhos .caixas-de-trabalhos:hover{
+    transform: scale(1.20);
+    box-shadow: 0 0 25px #ffffff65;
+}
+
+.trabalhos .caixas-de-trabalhos i{
+    font-size: 70px;
+    color: #ff9929;
+}
+.trabalhos .caixas-de-trabalhos h3{
+    font-size: 28px;
+    margin: 15px 0;
+}
+
+/*css do formulario de contato*/
+
+section.formulario{
+    padding: 80px 4%;
+}
+
+form{
+    max-width: 500px;
+    margin: 0% auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+form input, form textarea{
+    width: 100%;
+    background-color: #ff98297c;
+    border: 0;
+    outline: 0;
+    padding: 20px 15px;
+    border-radius: 15px;
+    color: #ffff;
+    font-size: 20px;
+}
+
+form textarea{
+    resize: none;
+    max-width: 500px;
+}
+
+form .btn-enviar{
+    margin-top: 20px;
+    text-align: center;
+}
+
+form .btn-enviar input{
+    width: 400px;
+    background-color: #ff9929;
+    color: #000;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+form .btn-enviar input:hover{
+    box-shadow: 0px 0px 8px #ff9929;
+    transform: scale(1.20);
+    transition: .3s;
+}
+
+/*css da aba de desenvolvedores*/
+
+
+
+.txt-descricao{
+    color: #fff;
+    font-size: 20px;
+    padding: 50px;
+    margin-top: 7%;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 25px #ffffff65;
+}
+
+.pg-devs .flex{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    width: 100%;
+    gap: 10%;
+}
+
+.img-devs{
+    margin-top: 20%;
+    width: 400px;
+    height: auto;
+    box-shadow: 0px 0px 25px #ffffff65;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.img-integrantes-dev:hover{
+    transform: scale(1.10);
+    transition: .3s;
+    border-radius: 10px;
+   
+}
+
+/*css do pf-devs*/
+
+.pf{
+    display: flex;
+    align-items: center;
+    height: 80%;
+    gap: 50%;
+    padding: 50px 5% 0;
+    color: #fff;
+}
+
+section.pf{
+    align-items: center;
+    justify-content: center;
+    gap: 120px;
+}
+
+.btn-sair button{
+    padding: 10px 30px;
+    font-size: 15px;
+    font-weight: 700;
+    background-color: #ff9929;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.btn-sair button:hover{
+    box-shadow: 0px 0px 8px rgb(255, 106, 0);
+    transform: scale(1.20);
+    transition: .3s;
+}
+
+.topo-pf h1#principal{
+    font-size: 35px;
+    color: #1c1c1c;
+}
+
+.topo-pf h2#principal{
+    font-size: 25px;
+    color: #1c1c1c;
+}
+
+.pf-devs h3{
+    color: #ff9929;
+    margin-top: 20px;
+}
+
+.pf-devs ul{ 
+    margin: 5px 15px;
+}
+
+.pf-devs .contratacao{
+    display: flex;
+    align-items: center;
+}
+
+.btn{
+    display: inline-block;
+    padding: 10px 30px;
+    background: #fff;
+    border: 2px solid #fff;
+    border-radius: 40px;
+    box-shadow: 0 0 10px #fff;
+    color: #000;
+    text-decoration: none;
+    font-weight: 700;
+    transition: .3s;
+}
+
+.btn:hover{
+    background: #fff;
+    box-shadow: #fff;
+    transform: scale(1.10);
+}
+
+.pf-devs .social-icons{
+    margin-left: 20px;
+}
+
+.pf-devs .social-icons a{
+    display: inline-flex;
+    padding: 8px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    margin: 0 8px;
+    transition: .3s;
+}
+
+.pf-devs .social-icons a:hover{
+    background: #fff;
+    box-shadow: 0 0 10px #fff;
+    color: #000;
+}
+
+/*css dos trabalhos-dev*/
+
+section.pf-box-devs{
+    padding: 150px 4%;
+}
+
+section.pf-box-devs .flex{
+    padding-top: 10%;
+    margin: 20px;
+    gap: 60px;
+}
+
+.pf-box-devs h1#projetos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    margin: 15px 0;
+    color: #ff9929;
+}
+
+
+.pf-box-devs .img-trabalhos h2{
+    font-size: 28px;
+    margin: 15px 0;
+    color: #ff9929;
+}
+
+.pf-box-devs .img-trabalhos ul{
+    font-size: 18px;
+    margin: 5px 15px;
+    color: #fff;
+}
+
+.img-trabalhos-devs{
+    width: 400px;
+    height: 400px;
+    position: relative;
+    border: 2px solid #fff;
+    border-radius: 10%;
+    box-shadow: 0 0 20px #fff;
+}
+
+/*css da paagina sobre*/
+
+.pg-sobre{
+    display: flex;
+    align-items: center;
+    height: 40%;
+    padding: 50px 5% 0;
+    color: #fff;
+}
+
+section.pg-sobre{
+    align-items: center;
+    justify-content: center;
+    gap: 120px;
+}
+
+.img-pg-sobre{
+    margin-top: none;
+    width: 500px;
+    height: auto;
+    box-shadow: 0px 0px 25px #ffffff65;
+    border: 2px solid #fff;
+    border-radius: 10px;
+}
+
+.txt{
+    text-align: center;
+}
+
+.txt h1{
+    margin-top: 5%;
+    font-size: 28px;
+    color: #ff9929;
+}
+
+.txt h2{
+    font-size: 18px;
+    color: #fff;
+    margin-left: 10%;
+    margin-right: 10%;
+}
